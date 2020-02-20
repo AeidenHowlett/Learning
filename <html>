@@ -1,0 +1,53 @@
+<html>
+<main id="main">
+    <header>
+    <h1 id="title"> Thomas Edison</h1>
+    </header>
+    <p>The creator of long-lasting practical electric light bulb.</p>
+    <figcaption id="img-div">
+      <img id="image"
+           src="https://www.liveabout.com/thmb/po7K5yodDlmwLEwzmXPnYlDPsBs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-538349053-57b12c433df78cd39c758eb4.jpg" alt="Thomas Edison showing his light bulb prototype."/>
+      <figcaption id="img-caption">
+        Thomas Edison showing his first ever long-lasting practical electric light bulb
+      </figcaption>
+      </figure>
+    <section id="tribute-info">
+      <h3 id="headline">Thomas Edison light bulb building timeline.</h3>
+      <ul>
+        <li><b>In 1878</b> Edison began working on a system of electrical illumination, something he hoped could compete with gas and oil-based lighting.[46] He began by tackling the problem of creating a long-lasting incandescent lamp, something that would be needed for indoor use.</li>
+        <li><b>On October 22, 1879</b> The first carbon filament light bulb successful test which lasted for 13.5 hours.</li>
+        <li><b>On November 4, 1879</b> Edison continued to improve this design and filed for U.S. patent 223,898 (granted on January 27, 1880) for an electric lamp using "a carbon filament or strip coiled and connected to platina contact wires". This was the first commercially practical incandescent light.</li>
+        <li><b>On December 31, 1879,</b> Edison made the first public demonstration of his incandescent light bulb in Menlo Park. It was during this time that he said: "We will make electricity so cheap that only the rich will burn candles.
+          <li>Thomas Edison continue to building other invention in Menlo Park Laboratory such as Phonograph, Carbon Telephone transmitter and Electric Power Distribution.</li>
+        <li><b>on October 18, 1931,</b>Thomas Edison died in his home, "Glenmont" in Llewellyn Park in West Orange, New Jersey.</li>
+      </ul>
+      <h4>You can read Thomas Edison other invention and contribution toward science on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Thomas_Edison" target="_blank">Wikipedia Page</a>.</h4>
+    </section>
+  </body>
+  </main>
+  </html>
+<style>
+    h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+  text-align: center;
+}
+</style>    
