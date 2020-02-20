@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+  <header class"header">
+    <h1 id="title"> Most useful computer operating system for programmer </h1>
+    <p id="description">Thank you for taking the time to partake this survey</p>
+  </header>
+<form id="survey-form">
+  <div class="group-form">
+    <label id="name-label" for="name">Name:</label>
+    <input 
+           type="text"
+           name="name"
+           id="name"
+           class="form-box"
+           placeholder="Enter Your Name Here"required />
+  </div>
+    <div class="group-form">
+      <label id="email-label" for="email">Email:</label>
+      <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-box"
+             placeholder="Enter Your Email Here" required />
+    </div>
+    <form id="survey-form">
+      <div class="group-form">
+        <label id="date-of-birth-label" for="date-of-birth">Date Of Birth:</label>
+        <input type="date" class="form-box" id="date-of-birth-label" name="date" required>
+      </div>
+      <form id="survey-form">
+        <div class="group-form">
+          <label id="number-label" for="number">Age:(Optional)</label>
+          <input 
+                 type="number"
+                 name="age"
+                 id="number"
+                 min="1"
+                 max="150"
+                 class="form-box"
+                 placeholder="Age" />
+        </div>
+ <div class="group-form">
+   <p>What operating systen are you using right now for programming?</p>
+   <select id="dropdown" name="operating-system" class="form-box" required>
+     <option disabled selected value>Select Current Operating System</option>
+     <option value="window">Window</option>
+     <option value="linux">Linux</option>
+     <option value="macos">MacOS</option>
+          <option value="ubuntu">Ubuntu</option>
+     <option value="other">Other</option>
+   </select>
+     </div>
+   <div class="group-form">
+     <p>Would you recommend your currently Operating System to other programmer?</p>
+     <label>
+       <input
+              name="user-recommendation"
+              value="absolutely"
+              type="radio"
+              class="input-radio"
+              checked/>Absolutely</label>
+     <label>
+     <input
+            name="user-recommendation"
+            value="maybe"
+            type="radio"
+            class="input-radio"
+            />Maybe</label>
+     <label>
+        <input
+               name="user-recommendation"
+               value="No"
+               type="radio"
+               class="input-radio"
+               />No</label>
+      </div>
+  <div class="group-form">
+    <p>What feature does the current operating system offers that you enjoy.(Multiple choices is available)</p>
+    <label>
+      <input
+             name="enjoy"
+             value="user-friendly"
+             type="checkbox"
+             class="input-checkbox"
+             />User-friendly</label>
+    <label>
+      <input
+             name="enjoy"
+             value="multitask"
+             type="checkbox"
+             class="input-checkbox"
+             />Multitask</label>
+    <label>
+      <input
+             name="enjoy"
+             value="open-source"
+             type="checkbox"
+             class="input-checkbox"
+             />Open Source</label>
+    <label>
+      <input
+             name="enjoy"
+             value="secure"
+             type="checkbox"
+             class="input-checkbox"
+             />Secure</label>
+    <label>
+      <input
+             name="enjoy"
+             value="compatibility"
+             type="checkbox"
+             class="input-checkbox"
+             />Compatibility</label>
+    <label>
+      <input
+             name="enjoy"
+             value="streamline-user-interface"
+             type="checkbox"
+             class="input-checkbox"
+             />Streamline User Interface</label>
+    <label>
+      <input
+             name="enjoy"
+             value="better-and-smooth-operating-system"
+             type="checkbox"
+             class="input-checkbox"
+             />Better And Smooth Operating System</label>
+    <label>
+      <input
+             name="enjoy"
+             value="other"
+             type="checkbox"
+             class="input-checkbox"
+             />Other</label> 
+     <input
+             name="enjoy"
+             id="other"
+             type="form-box"
+             class="form-box"
+             placeholder="Others"/>
+        </div>
+ <div class="group-form">
+   <p>What feature you dislike about the current operating feature.(Multiple choices is available)</p>
+     <label>
+       <input
+              name="dislike"
+              value="expensive"
+              type="checkbox"
+              class="input-checkbox"
+              />Expensive</label>
+     <label>
+       <input
+              name="dislike"
+              value="not-user-friendly"
+              type="checkbox"
+              class="input-checkbox"
+              />Not User-friendly</label>
+     <label>
+       <input
+              name="dislike"
+              value="bad-compatibility"
+              type="checkbox"
+              class="input-checkbox"
+              />Bad Compatibility</label>
+     <label>
+       <input
+              name="dislike"
+              value="limited-application"
+              type="checkbox"
+              class="input-checkbox"
+              />Limited Application</label>
+   <label>
+       <input
+              name="dislike"
+              value="weak-malwere-system"
+              type="checkbox"
+              class="input-checkbox"
+              />Weak Malware System</label>
+   <label>
+     <input
+            name="dislike"
+            value="bad-ui"
+            type="checkbox"
+            class="input-checkbox"
+            />Bad User Interface</label>
+   <label>
+     <input
+            name="dislike"
+            value="limited-user-control"
+            type="checkbox"
+            class="input-checkbox"
+            />Limited User-control</label>
+         <input
+             name="dislike"
+             value="other"
+             type="checkbox"
+             class="input-checkbox"
+             />Other</label> 
+     <input
+             name="dislike"
+             id="other"
+             type="form-box"
+             class="form-box"
+             placeholder="Others"/>
+        </div>
+      <div class="group-form">
+        <p>Any suggestion or comment?</p>
+        <textarea
+                  id="comment"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter Your Comment Here....."></textarea>
+      </div>
+      <div class="group-form">
+        <button type="submit" id="submit" class="submit-button">
+          Submit</button>
+      </div>
+  </form>
+  </div>
+</html>
+<style>
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.group-form {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-box {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-box:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color:green;
+}
+</style>
